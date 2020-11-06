@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.459);
+}
+
+#grille {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  background-image: url("img/vg.jpg");
+}
+
+.displayNone {
+  display: none;
+}
+
+.dices {
+  background-color: salmon;
+}
+
+#dice-one {
+  left: 333px;
+}
+#dice-two {
+  left: 500px;
+}
+
+.snails {
+  position: absolute;
+  z-index: 2;
+  left: 17px;
+  width: 80px;
+  height: 80px;
+}
+#snail-blue {
+  top: 30px;
+}
+#snail-maron {
+  top: 140px;
+}
+#snail-purple {
+  top: 250px;
+}
+#snail-yellow {
+  top: 360px;
+}
+#snail-green {
+  top: 470px;
+}
+#snail-red {
+  top: 580px;
+}
+
+.round {
+  border: 2px solid yellow;
+  margin: 10px;
+  padding: 20px;
+}
+
+.dside {
+  border: 3px solid yellow;
+  width: auto;
+  height: 100vh;
+  float: right;
+  background-color: teal;
+}
+
+.btn {
+  background-color: red;
+}
